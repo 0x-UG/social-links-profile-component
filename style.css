@@ -19,7 +19,7 @@ main {
 	width: 340px;
 }
 
-.container p:first-of-type {
+h1 {
 	font-weight: 700;
 	font-size: 1.3rem;
 	margin-bottom: 0;
