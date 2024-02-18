@@ -15,8 +15,8 @@ main {
 	align-items: center;
 	border-radius: 0.5rem;
 	background: hsl(0, 0%, 12%);
-	padding: 48px;
-	width: 340px;
+	padding: 3em;
+	max-width: 60%;
 }
 
 h1 {
@@ -62,4 +62,11 @@ h1 {
 button:hover {
 	background-color: hsl(75, 94%, 57%);
 	color: hsl(0, 0%, 8%);
+}
+
+@media (max-width: 600px) {
+	.container,
+	main {
+		margin: 0 auto;
+	}
 }
